@@ -26,6 +26,7 @@
     border: solid 3px rgb(20, 138, 248);
 }
 
+/*Button Color Style*/
 .btn_rainbow_darkred{
     border: none;
     background-color: #7E3759;
@@ -33,3 +34,32 @@
 .btn_rainbow_darkred:hover {
     border: solid 3px rgb(20, 138, 248);
 }
+.btn_rainbow_red{
+    border: none;
+    background-color: #C5403E;
+}
+.btn_rainbow_red:hover {
+    border: solid 3px rgb(20, 138, 248);
+}
+.btn_rainbow_green{
+    border: none;
+    background-color: #B8D331;
+}
+.btn_rainbow_green:hover {
+    border: solid 3px rgb(20, 138, 248);
+}
+.btn_rainbow_yellow{
+    border: none;
+    background-color: #EEB31B;
+}
+.btn_rainbow_yellow:hover {
+    border: solid 3px rgb(20, 138, 248);
+}
+.btn_rainbow_blue{
+    border: none;
+    background-color: #53C7CB;
+}
+.btn_rainbow_blue:hover {
+    border: solid 3px rgb(20, 138, 248);
+}
+
