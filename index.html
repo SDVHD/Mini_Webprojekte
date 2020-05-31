@@ -13,23 +13,23 @@
     <div class="btn_options"> 
         <button id="btn_clear">Clear</button>
         <button id="btn_backspace">DEL</button>
-        <button id="btn_multiplikation" onclick="chose_operation(3)">*</button>
-        <button id="btn_division" onclick="chose_operation(2)">/</button>
-        <button id="btn_substraktion" onclick="chose_operation(1)">-</button>
-        <button id="btn_addition" onclick="chose_operation(0)">+</button>
+        <button id="btn_multiplikation" onclick="chose('*')">*</button>
+        <button id="btn_division" onclick="chose('/')">/</button>
+        <button id="btn_substraktion" onclick="chose('-')">-</button>
+        <button id="btn_addition" onclick="chose('+')">+</button>
         <button id="btn_enter" onclick="click_enter()">Enter</button>
     </div>
         <div class="btn_numbers">
-        <button id="btn_7">7</button>
-        <button id="btn_7">8</button>
-        <button id="btn_7">9</button><br>
-        <button id="btn_7">4</button>
-        <button id="btn_7">5</button>
-        <button id="btn_7">6</button><br>
-        <button id="btn_7">1</button>
-        <button id="btn_7">2</button>
-        <button id="btn_7">3</button><br>
-        <button id="btn_7">0</button>
+        <button id="btn_7" value="7" onclick="chose('9')">9</button>
+        <button id="btn_8" value="8" onclick="chose('8')">8</button>
+        <button id="btn_9" value="9" onclick="chose('9')">9</button><br>
+        <button id="btn_4" value="4" onclick="chose('4')">4</button>
+        <button id="btn_5" value="5" onclick="chose('5')">5</button>
+        <button id="btn_6" value="6" onclick="chose('6')">6</button><br>
+        <button id="btn_1" value="1" onclick="chose('1')">1</button>
+        <button id="btn_2" value="2" onclick="chose('2')">2</button>
+        <button id="btn_3" value="3" onclick="chose('3')">3</button><br>
+        <button id="btn_0" value="0" onclick="chose('0')">0</button>
     </div>
 </body>
 </html>
