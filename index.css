@@ -6,9 +6,12 @@ body{
     display: grid;
     grid-template-columns: auto auto auto;
     justify-content: center;
+    background-color: #212121;
 }
 h1{
     grid-column: 2;
+    font-size: 60px;
+    color: #B8D331;
 }
 
 .div_output{
@@ -18,6 +21,8 @@ h1{
 #in_output {
     width: 80%;
     font-size: 50px;
+    background-color: #53C7CB;
+    border: none;
 }
 #in_output:focus {
     border: solid 3px rgb(20, 138, 248);
@@ -32,6 +37,7 @@ h1{
     border: none;
     margin: 3px;
     font-size: 50px;
+    width: 15%;
 }
 .btn_options:hover {
     border: solid 3px rgb(20, 138, 248);
@@ -46,6 +52,7 @@ h1{
     border: none;
     margin: 4px;
     font-size: 50px;
+    width: 30%;
 }
 .btn_numbers:hover {
     border: solid 3px rgb(20, 138, 248);
@@ -53,6 +60,10 @@ h1{
 button {
     font-size: 20px;
     padding: 15px;
+    border-radius: 25px;
+}
+input {
+    border-radius: 25px; 
 }
 #btn_enter{
     grid-column: 3;
@@ -61,6 +72,7 @@ button {
     background-color: white;
     border: none;
     margin: 4px;
+    margin-left: 10px;
     font-size: 50px;
 }
 #btn_enter:hover {
@@ -73,8 +85,12 @@ button {
     background-color: white;
     border: none;
     margin: 4px;
+    margin-left: 10px;
     font-size: 50px;
 }
 #btn_reset:hover {
     border: solid 3px rgb(20, 138, 248);
+}
+#btn_0 {
+    width: 100%;
 }
