@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mini Taschenrechner</title>
     <link href="index.css" type="text/css" rel="stylesheet">
-    <link href="/style_switch/style_switch.css" type="text/css" rel="stylesheet">
+    <link href="../Taschenrechner/style_switch/style_switch.css" type="text/css" rel="stylesheet">
     <script src="index.js"></script>
-    <script src="/style_switch/style_switch.js"></script>
+    <script src="../Taschenrechner/style_switch/style_switch.js"></script>
     <script src='https://kit.fontawesome.com/a076d05399.js'></script>
 </head>
 <body>
@@ -35,7 +35,7 @@
     </div>
     <button id="btn_enter"  onclick="enter()">Enter</button>
     <button id="btn_reset" onclick="reset_output()"><i class='fas fa-redo' style='font-size:50px;'></i></button>
-    <select id="slc_style">
+    <select id="slc_style" onchange="style_switch()">
         <option id="opt_classic" value="classic">Classic</option>
         <option id="opt_rainbow" value="rainbow">Regenbogen</option>
     </select>

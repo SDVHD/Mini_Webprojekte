@@ -1,3 +1,4 @@
+/*Hier nix Ändern*/
 *{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
@@ -9,11 +10,10 @@ body{
     background-color: #212121;
 }
 h1{
-    grid-column: 2;
+    grid-column: 2/4;
     font-size: 60px;
-    color: #B8D331;
-}
 
+}
 .div_output{
     grid-column: 2;
     grid-row: 2;
@@ -21,43 +21,21 @@ h1{
 #in_output {
     width: 80%;
     font-size: 50px;
-    border: none;
-}
-#in_output:focus {
-    border: solid 3px rgb(20, 138, 248);
 }
 .div_btn_options {
     grid-column: 2;
     grid-row: 3;
 }
-.btn_options {
-    padding: 5px;
-    border: none;
-    margin: 3px;
-    font-size: 50px;
-    width: 15%;
-}
-.btn_options:hover {
-    border: solid 3px rgb(20, 138, 248);
-}
 .div_btn_numbers {
     grid-column: 2;
     grid-row: 4;
 }
-.btn_numbers {
-    padding: 5px;  
-    margin: 4px;
-    border: none;
-    font-size: 50px;
-    width: 30%;
-}
-.btn_numbers:hover {
-    border: solid 3px rgb(20, 138, 248);
-}
 button {
-    font-size: 20px;
-    padding: 15px;
+    font-size: 50px;
+    padding: 5px;
     border-radius: 25px;
+    width: 30%;
+    margin: 4px;
 }
 input {
     border-radius: 25px; 
@@ -70,6 +48,7 @@ input {
     margin: 4px;
     margin-left: 10px;
     font-size: 50px;
+    width: 100%;
 }
 #btn_enter:hover {
     border: solid 3px rgb(20, 138, 248);
@@ -80,6 +59,7 @@ input {
     padding: 5px;
     border: none;
     margin: 4px;
+    width: 100%;
     margin-left: 10px;
     font-size: 50px;
 }
@@ -88,4 +68,20 @@ input {
 }
 #btn_0 {
     width: 100%;
+}
+#btn_addition {
+    width: 15%;
+}
+#btn_substraktion {
+    width: 15%;
+}
+#btn_multiplikation {
+    width: 15%;
+}
+#btn_division {
+    width: 15%;
+}
+#slc_style {
+    grid-row: 6;
+    grid-column: 2/4;
 }

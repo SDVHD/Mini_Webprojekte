@@ -1,5 +1,9 @@
 'use strict';
 
+window.onload = (event) => {
+    document.getElementById("slc_style").value = sessionStorage.getItem("style_switch_status");
+    style_switch();
+}
 function chose(val) {
     document.getElementById("in_output").value+=val;
 }
@@ -22,4 +26,7 @@ function style_switch(){
     else if (document.getElementById("slc_style").value === "rainbow") {
         style_rainbow();
     }
+    sessionStorage.setItem("style_switch_status", document.getElementById("slc_style").value);
+    document.getElementById("slc_style").value = sessionStorage.getItem("style_switch_status");
 }
+
