@@ -6,29 +6,32 @@
     <title>Mini Taschenrechner</title>
     <link href="index.css" type="text/css" rel="stylesheet">
     <script src="index.js"></script>
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
 </head>
 <body>
     <h1>Taschenrechner</h1>
-    <div class="div_output"><input id="in_output" type="text"></div>
-    <div class="btn_options"> 
-        <button id="btn_clear" onclick="clear()">Clear</button>
-        <button id="btn_multiplikation" onclick="chose('*')">*</button>
-        <button id="btn_division" onclick="chose('/')">/</button>
-        <button id="btn_substraktion" onclick="chose('-')">-</button>
-        <button id="btn_addition" onclick="chose('+')">+</button>
-        <button id="btn_enter" onclick="enter()">Enter</button>
+    <div class="div_output">
+        <input  id="in_output" type="text">
     </div>
-        <div class="btn_numbers">
-        <button id="btn_7" value="7" onclick="chose('9')">9</button>
-        <button id="btn_8" value="8" onclick="chose('8')">8</button>
-        <button id="btn_9" value="9" onclick="chose('9')">9</button><br>
-        <button id="btn_4" value="4" onclick="chose('4')">4</button>
-        <button id="btn_5" value="5" onclick="chose('5')">5</button>
-        <button id="btn_6" value="6" onclick="chose('6')">6</button><br>
-        <button id="btn_1" value="1" onclick="chose('1')">1</button>
-        <button id="btn_2" value="2" onclick="chose('2')">2</button>
-        <button id="btn_3" value="3" onclick="chose('3')">3</button><br>
-        <button id="btn_0" value="0" onclick="chose('0')">0</button>
+    <div class="div_btn_options"> 
+        <button id="btn_multiplikation" class="btn_options" onclick="chose('*')"><i class='fas fa-times' style='font-size:50px;'></i></button>
+        <button id="btn_division"       class="btn_options" onclick="chose('/')"><i class='fas fa-divide' style='font-size:50px;'></i></button>
+        <button id="btn_substraktion"   class="btn_options" onclick="chose('-')"><i class='fas fa-minus' style='font-size:50px;'></i></button>
+        <button id="btn_addition"       class="btn_options" onclick="chose('+')"><i class='fas fa-plus' style='font-size:50px;'></i></button>
     </div>
+        <div class="div_btn_numbers">
+        <button id="btn_7" class="btn_numbers" value="7" onclick="chose('9')">9</button>
+        <button id="btn_8" class="btn_numbers" value="8" onclick="chose('8')">8</button>
+        <button id="btn_9" class="btn_numbers" value="9" onclick="chose('9')">9</button><br>
+        <button id="btn_4" class="btn_numbers" value="4" onclick="chose('4')">4</button>
+        <button id="btn_5" class="btn_numbers" value="5" onclick="chose('5')">5</button>
+        <button id="btn_6" class="btn_numbers" value="6" onclick="chose('6')">6</button><br>
+        <button id="btn_1" class="btn_numbers" value="1" onclick="chose('1')">1</button>
+        <button id="btn_2" class="btn_numbers" value="2" onclick="chose('2')">2</button>
+        <button id="btn_3" class="btn_numbers" value="3" onclick="chose('3')">3</button><br>
+        <button id="btn_0" class="btn_numbers" value="0" onclick="chose('0')">0</button>
+    </div>
+    <button id="btn_enter"  onclick="enter()">Enter</button>
+    <button id="reset" onclick="clear()"><i class='fas fa-redo' style='font-size:50px;'></i></button>
 </body>
 </html>

@@ -10,5 +10,6 @@ function enter() {
 }
 
 function clear() {
-    document.getElementById("in_output").value = "";
+    document.getElementById("in_output").value = "000";
+    console.log("Hallo");
 }
