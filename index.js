@@ -1,3 +1,4 @@
+'use strict';
 
 function chose(val) {
     document.getElementById("in_output").value+=val;
@@ -15,10 +16,10 @@ function reset_output() {
 }
 
 function style_switch(){
-    if (document.getElementById("slc_style").value = "classic") {
+    if (document.getElementById("slc_style").value === "classic") {
         style_classic();
     }
-    else if (document.getElementById("slc_style").value = "rainbow") {
+    else if (document.getElementById("slc_style").value === "rainbow") {
         style_rainbow();
     }
 }

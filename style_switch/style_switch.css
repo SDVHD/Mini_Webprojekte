@@ -1,7 +1,9 @@
-/*Style Rainbow*/
+/*Style Rainbow
+/*Style Titel*/
 .h1_rainbow {
     color: #B8D331;
 }
+/*Style Output*/
 .in_output_rainbow{
     background-color: #53C7CB;
     border: none;
@@ -9,27 +11,25 @@
 .in_output_rainbow:focus{
     border: solid 3px rgb(20, 138, 248);
 }
-.btn_options_rainbow{
-    border: none;
-}
-.btn_options_rainbow:hover {
-    border: solid 3px rgb(20, 138, 248);
-}
-.btn_numbers_rainbow{
-    border: none;
-}
-.btn_numbers_rainbow:hover {
-    border: solid 3px rgb(20, 138, 248);
-}
+/*Style Enter*/
 .btn_enter_rainbow {
     border: none;
 }
 .btn_enter_rainbow:hover {
     border: solid 3px rgb(20, 138, 248);
 }
+/*Style Reset*/
 .btn_reset_rainbow {
     border: none;
 }
 .btn_reset_rainbow:hover {
+    border: solid 3px rgb(20, 138, 248);
+}
+
+.btn_rainbow_darkred{
+    border: none;
+    background-color: #7E3759;
+}
+.btn_rainbow_darkred:hover {
     border: solid 3px rgb(20, 138, 248);
 }
