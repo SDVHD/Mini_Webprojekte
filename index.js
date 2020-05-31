@@ -9,7 +9,7 @@ function enter() {
     document.getElementById("in_output").value = ergebnis;
 }
 
-function clear() {
-    document.getElementById("in_output").value = "000";
+function reset_output() {
+    document.getElementById("in_output").value = "";
     console.log("Hallo");
 }
