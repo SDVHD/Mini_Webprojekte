@@ -1,0 +1,35 @@
+/*Style Rainbow*/
+.h1_rainbow {
+    color: #B8D331;
+}
+.in_output_rainbow{
+    background-color: #53C7CB;
+    border: none;
+}
+.in_output_rainbow:focus{
+    border: solid 3px rgb(20, 138, 248);
+}
+.btn_options_rainbow{
+    border: none;
+}
+.btn_options_rainbow:hover {
+    border: solid 3px rgb(20, 138, 248);
+}
+.btn_numbers_rainbow{
+    border: none;
+}
+.btn_numbers_rainbow:hover {
+    border: solid 3px rgb(20, 138, 248);
+}
+.btn_enter_rainbow {
+    border: none;
+}
+.btn_enter_rainbow:hover {
+    border: solid 3px rgb(20, 138, 248);
+}
+.btn_reset_rainbow {
+    border: none;
+}
+.btn_reset_rainbow:hover {
+    border: solid 3px rgb(20, 138, 248);
+}

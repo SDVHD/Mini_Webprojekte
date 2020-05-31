@@ -15,5 +15,10 @@ function reset_output() {
 }
 
 function style_switch(){
-    if (document.getElementById("slc_style").value = classic)
+    if (document.getElementById("slc_style").value = "classic") {
+        style_classic();
+    }
+    else if (document.getElementById("slc_style").value = "rainbow") {
+        style_rainbow();
+    }
 }
