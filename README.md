@@ -3,3 +3,7 @@ Hier sind alle meine mini Projekte. Ihr könnt die nachbauen, clonen und verbess
 Teil von euren Projekten. 
 
 Ich bitte euch einfach den beim letzteren einen Hinweis auf mich zu machen. 
+
+
+## Rechner
+Das *Projekt Rechner* beinhaltet einen kleinen Rechner der Addition, Substraktion, Multiplikation und Division beherscht.  
