@@ -1,4 +1,5 @@
 /*Style Rainbow
+
 /*Style Titel*/
 .h1_rainbow {
     color: #B8D331;
@@ -65,4 +66,38 @@
 
 /*Style Classic*/
 
-/*Style ...*/
+/*Style Titel*/
+.h1_classic {
+    color: whitesmoke;
+}
+/*Style Output*/
+.in_output_classic{
+    background-color: whitesmoke;
+    border: none;
+}
+.in_output_classic:focus{
+    border: solid 3px rgb(20, 138, 248);
+}
+/*Style Enter*/
+.btn_enter_classic {
+    border: none;
+}
+.btn_enter_classic:hover {
+    border: solid 3px rgb(20, 138, 248);
+}
+/*Style Reset*/
+.btn_reset_classic {
+    border: none;
+}
+.btn_reset_classic:hover {
+    border: solid 3px rgb(20, 138, 248);
+}
+
+/*Button Style*/
+.btn_classic{
+    border: none;
+    background-color: whitesmoke;
+}
+.btn_classic:hover {
+    border: solid 3px rgb(20, 138, 248);
+}

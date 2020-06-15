@@ -1,6 +1,23 @@
 'use strict';
 function style_classic() {
-
+    document.getElementById("h1_titel").className = "h1_classic";
+    document.getElementById("in_output").className = "in_output_classic";
+    document.getElementById("btn_multiplikation").className = "btn_classic";
+    document.getElementById("btn_division").className = "btn_classic";
+    document.getElementById("btn_substraktion").className = "btn_classic";
+    document.getElementById("btn_addition").className = "btn_classic";
+    document.getElementById("btn_7").className = "btn_classic";
+    document.getElementById("btn_8").className = "btn_classic";
+    document.getElementById("btn_9").className = "btn_classic";
+    document.getElementById("btn_4").className = "btn_classic";
+    document.getElementById("btn_5").className = "btn_classic";
+    document.getElementById("btn_6").className = "btn_classic";
+    document.getElementById("btn_1").className = "btn_classic";
+    document.getElementById("btn_2").className = "btn_classic";
+    document.getElementById("btn_3").className = "btn_classic";
+    document.getElementById("btn_0").className = "btn_classic";
+    document.getElementById("btn_enter").className = "btn_classic";
+    document.getElementById("btn_reset").className = "btn_classic";
 }
 function style_rainbow() {
     document.getElementById("h1_titel").className = "h1_rainbow";
